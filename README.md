@@ -12,18 +12,17 @@ ataques: una lista de los ataques que el personaje puede realizar.
 
 Métodos principales de la clase Personaje: lo que le da vida al personaje y tenga una mejor mecanica en el combate.
 
-atacar(Personaje objetivo, int indiceAtaque): Permite que el personaje ataque a otro. Reduce la vida del personaje objetivo en función de la fuerza del atacante.
-
-estaVivo(): Devuelve true si la vida del personaje es mayor a 0, lo que indica que sigue en combate.
-
-mostrarEstado(): Muestra el estado actual del personaje, como el nombre y la vida.
-
-Clase SuperHero y Villano: Son subclases de Personaje, es decir, heredan los atributos y métodos de la clase Personaje, pero pueden tener comportamientos adicionales o específicos.
+-atacar(Personaje objetivo, int indiceAtaque): Permite que el personaje ataque a otro. Reduce la vida del personaje objetivo en función de la fuerza del atacante.
+-estaVivo(): Devuelve true si la vida del personaje es mayor a 0, lo que indica que sigue en combate.
+-mostrarEstado(): Muestra el estado actual del personaje, como el nombre y la vida.
+-lase SuperHero y Villano: Son subclases de Personaje, es decir, heredan los atributos y métodos de la clase Personaje, pero pueden tener comportamientos adicionales o específicos.
 
 2. Los metodos que se utilizaron fueron los siguientes:
 Métodos sobrescritos (@Override) en SuperHero y Villano:
 El método mostrarEstado() es sobrescrito para que además de mostrar el nombre y la vida, también se muestre el poder especial del personaje.
+
 3. Funcionalidad del Juego
+
 Creación de personajes:
 
 Se crean 5 héroes (SuperHero[] heroes) con distintos atributos, ataques y poderes.
